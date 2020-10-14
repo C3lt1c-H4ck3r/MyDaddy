@@ -1,14 +1,27 @@
 <div class="center jumbotron">
-  <h1>Welcome to the Sample App</h1>
+  <h1>Welcome to MyDaddy</h1>
 
   <h2>
-    This is the home page for the
-    <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    We provide the most secured & trusted way to connect Sugar Daddies & Sugar Mommies with their desired Sugar Babbies!
   </h2>
 
   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
 </div>
-
-<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"),
-                      "https://rubyonrails.org/" %>
+<table border="0" align="center">
+  <tr>
+    <td style="padding: 5px">
+      <h1 style="color: #00F; font-size: 20px; text-align: center">Powered By;</h1>
+    </td>
+    <td style="padding: 5px">
+      <h1 style="color: #00F; font-size: 20px; text-align: center">Built By;</h1>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 5px;">
+      <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "75", height: "75", width: "150"), "https://rubyonrails.org/" %>
+    </td>
+    <td style="padding: 5px">
+      <%= link_to image_tag("h4ck3r.jpg", alt: "H4ck3r", width: "100", height: "100", style: "border-radius: 75px"), "https://www.twitter.com/C3lt1c-H4ck3r", target: :_blank %>
+    </td>
+  </tr>
+</table>
